@@ -1,0 +1,13 @@
+TESTING METHODS THROUGH POSTMAN:
+
+POST:https://localhost:7174/api/Employee/Export
+
+JSON BODY:
+{
+  "company": "XYZ Corporation",
+  "department": "IT",
+  "designation": "Software Engineer",
+  "isActive": true,
+  "exportFormat": "excel"  // Use "csv" if you want CSV export
+}
+
